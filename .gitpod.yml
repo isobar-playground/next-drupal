@@ -1,0 +1,16 @@
+tasks:
+  - init: .gitpod/init.sh
+
+ports:
+  - port: 3000
+    onOpen: open-browser
+
+additionalRepositories:
+  - url: https://github.com/isobar-playground/commerce-api
+    checkoutLocation: commerce-api
+
+github:
+  prebuilds:
+    master: true
+    branches: true
+    pullRequests: false
