@@ -41,6 +41,8 @@ additionalRepositories:
   - url: https://github.com/isobar-playground/commerce-api
     checkoutLocation: commerce-api
 
+workspaceLocation: next-drupal/main.code-workspace
+
 github:
   prebuilds:
     master: true
