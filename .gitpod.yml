@@ -35,9 +35,11 @@ tasks:
 
 ports:
   - port: 3000
-    onOpen: open-browser
+    onOpen: ignore
   - port: 80
-    onOpen: open-browser
+    onOpen: ignore
+  - port: 8080
+    onOpen: ignore
 
 additionalRepositories:
   - url: https://github.com/isobar-playground/commerce-api
