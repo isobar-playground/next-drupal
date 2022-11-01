@@ -11,6 +11,7 @@ tasks:
       cp .gitpod/docker-compose.override.yml .
       chmod 660 drupal/oauth/*.key
       make database
+      make files
       make up
       make composer install
       make drush deploy
